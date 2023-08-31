@@ -36,12 +36,14 @@ const cart = (triggerSelector, cartSelector, closeCartSelector, cartActiveClassS
   const openCart = cart => {
     layout.style.visibility = 'visible';
     layout.style.opacity = 1;
-    cart.classList.add(cartActiveClassSelector.slice(1));
+    cart.style.display = 'block';
+    setTimeout(() => cart.classList.add(cartActiveClassSelector.slice(1)), 10);
   };
   const closeCart = cart => {
     layout.style.opacity = 0;
     setTimeout(() => layout.style.visibility = 'hidden', 300);
     cart.classList.remove(cartActiveClassSelector.slice(1));
+    setTimeout(() => cart.style.display = 'none', 300);
   };
   cartBtns.forEach(cartBtn => {
     cartBtn.addEventListener('click', e => {
