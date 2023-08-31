@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProGround | Оформлення замовлення</title>
+  <script defer src="./common.bundle.e013258885e0cc1e03b5.js"></script><script defer src="./order.bundle.c07e20c1fd6e4d5e0ad3.js"></script><link href="./assets/styles/common.8c4dba4c18a9071e4e9d.css" rel="stylesheet"><link href="./assets/styles/order.242ba1d05dbe86123abb.css" rel="stylesheet"></head>
+  <body>
+    <div class="layout">
+        <div class="modal">
+          <div class="modal__close"></div>
+          <div class="modal__content payment">
+            <div class="modal__header">У нашому магазині доступні такі умови оплати та доставки:</div>
+            <div class="modal__payment">
+              Способи оплати:
+              <ul>
+                <li>Оплата за реквізитами</li>
+                <li>Післяплата</li>
+              </ul>
+            </div>
+            <div class="modal__delivery">
+              Способи доставки:
+              <ul>
+                <li>Транспортна компанія</li>
+                <li>Доставка "Нова Пошта"</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal__content refund">
+            Умови повернення
+          </div>
+          <div class="modal__content contact">
+            Контакти
+          </div>
+        </div>
+      </div> 
+      
+      <header class="header">
+          <nav>
+            <div class="header-upper">
+              <div class="container">
+                <ul>
+                  <li class="header-upper__main-item">
+                    <a href="/pro-nas.html">Про нас</a>
+                  </li>
+                  <li class="header-upper__main-item">
+                    <a href="/blog.html">Блог</a>
+                  </li>
+                  <li class="header-upper__main-item reviews-item">
+                    <a href="/vidguky.html">Відгуки</a>
+                  </li>
+                  <li class="header-upper__main-item compare">
+                    <a href="/porivniannya.html">
+                      <img
+                        src="./assets/icons/compare.b6630c6c83219e9481fa.svg"
+                        alt="іконка для порівняння товарів"
+                        width="25"
+                        height="25"
+                      />
+                      Порівняння
+                    </a>
+                  </li>
+                  <li class="header-upper__main-item cart-btn">
+                    <a href="/koshyk.html">
+                      <img src="./assets/icons/cart.edbbec61c3ee379fab46.svg" alt="іконка корзини товарів" width="25" height="25" />
+                      Кошик
+                    </a>
+                  </li>
+                  <li class="burger-btn">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+            <div class="header-middle">
+              <div class="container">
+                <div class="header-middle__wrapper">
+                  <div class="header-middle__logo">
+                    <a href="/">
+                      <picture>
+                        <source srcset="./assets/images/logo/logo.0e5ea2ba4da19d27122e.webp" type="image/webp" />
+                        <source srcset="./assets/images/logo/logo.f1d07cb4bdf5680f353e.avif" type="image/avif" />
+                        <img src="./assets/images/logo/logo.73ea610988b84d6d9d23.png" alt="логотип proground" />
+                      </picture>
+                    </a>
+                  </div>
+    
+                  <div class="header-middle__info">
+                    <div class="wh">Пн-Пт: 09:00 - 18:00 Сб-Нд: Вихідні</div>
+                    <div class="ph">
+                      <a href="tel:+380955130057">+380 (95) 513-00-57</a>
+                    </div>
+                  </div>
+    
+                  <div class="header-middle__search">
+                    <input type="text" placeholder="Пошук" name="menu-search"/>
+                    <button class="btn btn-search">
+                      <img src="./assets/icons/search.4a5bbd76eea28e467228.svg" width="24" height="24" src="іконка пошуку" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="header-lower">
+              <div class="container">
+                <ul class="header-lower__menu">
+                  <li>
+                    <a href="/nasinnya-ovochiv.html"> Насіння овочів </a>
+    
+                    <div class="wrapper">
+                      <ul class="header-lower__nested-menu three-columns">
+                        <li>
+                          <a href="/nasinnya-ovochiv/buriak.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/buriak.ec0273ecfdf58e5d7c46.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/buriak.9b075f2ea5bf139a3e81.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/buriak.d1a7de4b57ecb0cbd6ce.png"
+                                alt="буряк"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Буряк
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/kukurudza.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kukurudza.9087301ea35f277ef39b.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kukurudza.1503644f8a7b551bb717.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/kukurudza.5829837b25080380cc81.png"
+                                alt="Кукурудза"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Кукурудза
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/redis.html">
+                            <picture>
+                              <source srcset="./assets/icons/navbar/vegetables/redis.49fa6554ee2ab1291bfd.webp" type="image/webp" />
+                              <source srcset="./assets/icons/navbar/vegetables/redis.18dbd3f9658fbe245b40.avif" type="image/avif" />
+                              <img
+                                src="./assets/icons/navbar/vegetables/redis.4259399ee54ba25dd9f9.png"
+                                alt="Редис"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Редис
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/baklazhan.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/baklazhan.bb6a515d37324961c80d.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/baklazhan.90d8f10f0542ab993af2.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/baklazhan.e12fd121ae33fca65553.png"
+                                alt="Баклажан"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Баклажан
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/krip.html">
+                            <picture>
+                              <source srcset="./assets/icons/navbar/vegetables/krip.d53ca9e67c138997d920.webp" type="image/webp" />
+                              <source srcset="./assets/icons/navbar/vegetables/krip.043d7d798b13b254b91f.avif" type="image/avif" />
+                              <img
+                                src="./assets/icons/navbar/vegetables/krip.0b78d26868659295f619.png"
+                                alt="Кріп"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Кріп
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/salat.html">
+                            <picture>
+                              <source srcset="./assets/icons/navbar/vegetables/salat.291b9066105f59a048f2.webp" type="image/webp" />
+                              <source srcset="./assets/icons/navbar/vegetables/salat.275f3b745f06794a12b0.avif" type="image/avif" />
+                              <img
+                                src="./assets/icons/navbar/vegetables/salat.06a18900d50d48e0401f.png"
+                                alt="Салат"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Салат
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/dynia.html">
+                            <picture>
+                              <source srcset="./assets/icons/navbar/vegetables/dynia.1b91c1890e7385f31c7c.webp" type="image/webp" />
+                              <source srcset="./assets/icons/navbar/vegetables/dynia.4d9f34bfd09440aa1efe.avif" type="image/avif" />
+                              <img
+                                src="./assets/icons/navbar/vegetables/dynia.0665560375aeb4018320.png"
+                                alt="Диня"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Диня
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/morkva.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/morkva.5768619e1439b3d5abd0.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/morkva.e6d5711ca4adb1839cd1.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/morkva.b4a779186a199cc3ecc1.png"
+                                alt="Морква"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Морква
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/selera.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/selera.cbe3f0bd50d3fca7a2c8.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/selera.acc669b11953aced45a6.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/selera.dc93bfb0d84cda98c60d.png"
+                                alt="Селера"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Селера
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/kabachok.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kabachok.d8389e196d1cb84d0fbe.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kabachok.c33f2d1779277dff58ae.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/kabachok.ea019b4f0ba5d02f35e2.png"
+                                alt="Кабачок"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Кабачок
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/ogirok.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/ogirok.bcdc633a3ba6db1ac3ac.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/ogirok.48853e9bc49a89014975.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/ogirok.0baaf81f57b407df6f22.png"
+                                alt="Огірок"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Огірок
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/tomat.html">
+                            <picture>
+                              <source srcset="./assets/icons/navbar/vegetables/tomat.36e51f66c4da6290185e.webp" type="image/webp" />
+                              <source srcset="./assets/icons/navbar/vegetables/tomat.91111fd107b19b61addb.avif" type="image/avif" />
+                              <img
+                                src="./assets/icons/navbar/vegetables/tomat.f212a3f014f59bf05e3a.png"
+                                alt="Томат"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Томат
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/kavun.html">
+                            <picture>
+                              <source srcset="./assets/icons/navbar/vegetables/kavun.04c87830472361fce880.webp" type="image/webp" />
+                              <source srcset="./assets/icons/navbar/vegetables/kavun.6ea3cfa1c0836067cc4f.avif" type="image/avif" />
+                              <img
+                                src="./assets/icons/navbar/vegetables/kavun.e07d49ad9d518e6bff94.png"
+                                alt="Кавун"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Кавун
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/perec.html">
+                            <picture>
+                              <source srcset="./assets/icons/navbar/vegetables/perec.b1fa36d304e27e9caa07.webp" type="image/webp" />
+                              <source srcset="./assets/icons/navbar/vegetables/perec.87e3d5cb742d6a1650bf.avif" type="image/avif" />
+                              <img
+                                src="./assets/icons/navbar/vegetables/perec.3901388f0bc897aaa7d9.png"
+                                alt="Перець"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Перець
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/cibulia.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/cibulia.2041d4729778b3c6433e.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/cibulia.fbd45dc2fb563443401e.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/cibulia.24e999f4a5025eae7a92.png"
+                                alt="Цибуля"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Цибуля
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/kapusta.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kapusta.b7d2c624dee18f68f696.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kapusta.231b80935a93d0737b26.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/kapusta.c6bd5b538b8e2033c06c.png"
+                                alt="Капуста"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Капуста
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/petrushka.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/petrushka.e9a0f189c488db8873ba.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/petrushka.7b5c75a34e4ebb610913.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/petrushka.3123078d644296b2ebc5.png"
+                                alt="Петрушка"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Петрушка
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/nasinnya-ovochiv/shpinat.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/shpinat.8d43103b798eb925ea07.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/shpinat.4b2f0868d9cb9b80a50d.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/shpinat.6ff484a71f1d72364775.png"
+                                alt="Шпинат "
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Шпинат
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="/polovi-kultury.html">Польові культури</a>
+    
+                    <div class="wrapper">
+                      <ul class="header-lower__nested-menu three-columns">
+                        <li>
+                          <a href="/polovi-kultury/kukurudza.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kukurudza.9087301ea35f277ef39b.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/vegetables/kukurudza.1503644f8a7b551bb717.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/vegetables/kukurudza.5829837b25080380cc81.png"
+                                alt="Кукурудза"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Кукурудза
+                          </a>
+                        </li>
+                        <li>
+                          <li>
+                            <a href="/polovi-kultury/sonyashnik.html">
+                              <picture>
+                                <source
+                                  srcset="./assets/icons/navbar/fields/sonyashnik.9352120ae8dd04626a05.webp"
+                                  type="image/webp"
+                                />
+                                <source
+                                  srcset="./assets/icons/navbar/fields/sonyashnik.3d483e1adf8422ea93ad.avif"
+                                  type="image/avif"
+                                />
+                                <img
+                                  src="./assets/icons/navbar/fields/sonyashnik.fbfb869e881f00db0be6.png"
+                                  alt="Соняшник"
+                                  width="40"
+                                  height="40"
+                                />
+                              </picture>
+                              Соняшник
+                            </a>
+                          </li>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="/kormovi-kultury.html">Кормові культури</a>
+    
+                    <div class="wrapper">
+                      <ul class="header-lower__nested-menu three-columns">
+                        <li>
+                          <a href="/kormovi-kultury/stokolos-bezostiy.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/feed/stokolos.0f251481cfeecf5131ca.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/feed/stokolos.f2f9301fbccd5e5e5102.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/feed/stokolos.3c2273e18f2a64df2efb.png"
+                                alt="Стоколос безостий"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Стоколос безостий
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+    
+                  <li>
+                    <a href="/zasoby-zahystu.html">Засоби захисту</a>
+    
+                    <div class="wrapper">
+                      <ul class="header-lower__nested-menu one-column">
+                        <li>
+                          <a href="/zasoby-zahystu/fungicydy.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/defence/fungicydy.f50fff7db0e2a9abdc63.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/defence/fungicydy.d09a6f6d53c70a8defac.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/defence/fungicydy.19e28da2febfbfe425fd.png"
+                                alt="Фунгіциди"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Фунгіциди
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/zasoby-zahystu/insektycydy.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/defence/insektycydy.903bf06630c19f5c0114.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/defence/insektycydy.08e0cd20dd49c7a84dba.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/defence/insektycydy.aa41982ab1f64c669367.png"
+                                alt="Інсектициди"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Інсектициди
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/zasoby-zahystu/protruinyky.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/defence/protruinyky.a0926809b3b00c82101c.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/defence/protruinyky.1c026f0fcbb43b301a17.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/defence/protruinyky.c2bcb2864ecd6cb8b194.png"
+                                alt="Протруйники"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Протруйники
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/zasoby-zahystu/gerbicydy.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/defence/gerbicydy.b1d7e248b835152ef57e.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/defence/gerbicydy.80f0c00268b62ce3f548.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/defence/gerbicydy.828e1367a729d96e538a.png"
+                                alt="Гербіциди"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Гербіциди
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/zasoby-zahystu/prylypach.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/defence/prylypach.01ba3a43cfd298913d39.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/defence/prylypach.05775f635ec3aa5abf34.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/defence/prylypach.87efea27f1cfc59e884a.png"
+                                alt="Прилипач"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Прилипач
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/zasoby-zahystu/fumiganty.html">
+                            <picture>
+                              <source
+                                srcset="./assets/icons/navbar/defence/fumiganty.ea1ef3ab5290c54f358d.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="./assets/icons/navbar/defence/fumiganty.5cd1dead6edae054b5f2.avif"
+                                type="image/avif"
+                              />
+                              <img
+                                src="./assets/icons/navbar/defence/fumiganty.7863b5d81ef5bf0072bf.png"
+                                alt="Фуміганти"
+                                width="40"
+                                height="40"
+                              />
+                            </picture>
+                            Фуміганти
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="/dobryva.html">Добрива і стимулятори росту</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+            <div class="header-mobile">
+              <div class="container">
+                <div class="header-mobile-close">
+                  <div class="wrapper"></div>
+                </div>
+    
+                <ul class="header-mobile-items">
+                  <li><a href="/about.html">Про нас</a></li>
+                  <li><a href="/blog.html">Блог</a></li>
+                  <li><a href="/reviews.html">Відгуки</a></li>
+                  <li><a href="/vegetables.html">Насіння овочів</a></li>
+                  <li><a href="/fields.html">Польові культури</a></li>
+                  <li><a href="/feed.html">Кормові культури</a></li>
+                  <li><a href="/defence.html">Засоби захисту</a></li>
+                  <li>
+                    <a href="/stimulants.html">Добрива і стимулятори росту</a>
+                  </li>
+                </ul>
+    
+                <ul class="header-mobile-main">
+                  <li class="cart-btn">
+                    <a href="/cart.html">
+                      <img src="./assets/icons/cart.edbbec61c3ee379fab46.svg" alt="іконка кошику" width="20" height="20" />
+                      Мій кошик
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/compare.html">
+                      <img src="./assets/icons/compare.b6630c6c83219e9481fa.svg" alt="іконка порівняння" width="20" height="20" />
+                      Порівняння
+                    </a>
+                  </li>
+                  <li>
+                    <div class="header-mobile-main__search">
+                      <input type="text" placeholder="Пошук"  name="mobile-menu-search">
+                      <button class="btn btn-search-mobile">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.7215 16.5112C19.3896 14.531 20.2283 11.9832 20.0628 9.39942C19.8972 6.81566 18.74 4.39571 16.8329 2.64473C14.9257 0.893745 12.4159 -0.0529425 9.82745 0.00228754C7.23898 0.0575176 4.77188 1.1104 2.94114 2.94114C1.1104 4.77188 0.0575176 7.23898 0.00228754 9.82745C-0.0529425 12.4159 0.893745 14.9257 2.64473 16.8329C4.39571 18.74 6.81566 19.8972 9.39942 20.0628C11.9832 20.2283 14.531 19.3896 16.5112 17.7215L22.5493 23.7597C22.7108 23.9156 22.927 24.0019 23.1514 24C23.3759 23.998 23.5906 23.908 23.7493 23.7493C23.908 23.5906 23.998 23.3759 24 23.1514C24.0019 22.927 23.9156 22.7108 23.7597 22.5493L17.7215 16.5112ZM1.75469 10.063C1.75469 8.41974 2.24196 6.81342 3.15489 5.44713C4.06781 4.08085 5.36539 3.01595 6.88352 2.38712C8.40166 1.75829 10.0722 1.59376 11.6838 1.91433C13.2955 2.23491 14.7759 3.02619 15.9378 4.18813C17.0997 5.35006 17.891 6.83045 18.2116 8.4421C18.5322 10.0537 18.3676 11.7243 17.7388 13.2424C17.11 14.7605 16.0451 16.0581 14.6788 16.971C13.3125 17.884 11.7062 18.3712 10.063 18.3712C7.86024 18.3687 5.74844 17.4926 4.19088 15.935C2.63332 14.3775 1.75718 12.2657 1.75469 10.063Z" fill="#FFFAF0"/>
+                          </svg>
+                      </button>
+                    </div>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+  
+          <div class="cart">
+    
+              <div class="cart__inner">
+  
+                <div class="cart__title">Кошик</div>
+                <div class="cart__close"></div>
+  
+                <div class="items-in-cart">
+  
+                  <div class="cart-item">
+                    <div class="cart-item__wrapper">
+                      <div class="cart-item__photo">
+                        <a href="/nasinnya-ovochiv/buriak/buriak-chervoniy-pablo-f1.html">
+                          <picture>
+                            <source srcset="./assets/images/sliders/novinki/buriak.32266ac10144703778ca.webp" type="image/webp">
+                            <source srcset="./assets/images/sliders/novinki/buriak.3ba549912266090c1ac0.avif" type="image/avif">
+                            <img src="./assets/images/sliders/novinki/buriak.c268e2d971c649576908.png" alt="морква">
+                          </picture>
+                        </a>
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">Буряк червноий Пабло F1</div>
+                        <div class="cart-item__price">796,82 грн/уп</div>
+                        <div class="cart-item__counter">
+                          
+                          <button class="btn btn-cart-minus">-</button>
+                          <div class="counter-number">1</div>
+                          <button class="btn btn-cart-plus">+</button>
+                          
+                        </div>
+                      </div>
+                      <div class="cart-item__drop">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.2903 13.0456H10.3071C10.4924 13.0456 10.644 12.8854 10.6608 12.6896L11.065 5.81978C11.0818 5.60621 10.9303 5.42823 10.7282 5.42823C10.5429 5.41043 10.3576 5.57061 10.3576 5.78418L9.95343 12.6362C9.93658 12.8498 10.0882 13.0278 10.2903 13.0456Z" fill="#102714"/>
+                          <path d="M8.00017 13.0456C8.20227 13.0456 8.35385 12.8854 8.35385 12.6719V5.78421C8.35385 5.57064 8.20227 5.41046 8.00017 5.41046C7.79806 5.41046 7.64648 5.57064 7.64648 5.78421V12.6541C7.64648 12.8676 7.79806 13.0456 8.00017 13.0456Z" fill="#102714"/>
+                          <path d="M5.69271 13.0456H5.70955C5.91165 13.0278 6.04639 12.8499 6.04639 12.6541L5.62534 5.78423C5.6085 5.57066 5.42323 5.42828 5.25481 5.42828C5.05271 5.44608 4.91797 5.62406 4.91797 5.81983L5.33902 12.6897C5.35586 12.8855 5.50744 13.0456 5.69271 13.0456Z" fill="#102714"/>
+                          <path d="M15.6463 2.43826H10.5095V2.02892C10.5095 0.925473 9.65053 0 8.58947 0H7.41053C6.34947 0 5.49053 0.907675 5.49053 2.02892V2.43826H0.353684C0.151579 2.43826 0 2.59844 0 2.81201C0 3.02558 0.151579 3.18576 0.353684 3.18576H1.6L2.47579 14.2024C2.56 15.2169 3.36842 16 4.32842 16H11.6716C12.6316 16 13.44 15.2169 13.5242 14.2024L14.4 3.18576H15.6463C15.8484 3.18576 16 3.02558 16 2.81201C16 2.59844 15.8484 2.43826 15.6463 2.43826ZM6.1979 2.02892C6.1979 1.31702 6.73684 0.747497 7.41053 0.747497H8.58947C9.26316 0.747497 9.80211 1.31702 9.80211 2.02892V2.43826H6.1979V2.02892ZM12.8168 14.1491C12.7663 14.772 12.2611 15.2703 11.6716 15.2703H4.32842C3.73895 15.2703 3.23368 14.772 3.18316 14.1491L2.32421 3.18576H13.6926L12.8168 14.1491Z" fill="#102714"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cart-item__economy-wrapper">
+                      <div class="cart-item__economy-text">Від 10 упаковок економія 25,70 ₴</div>
+                      <div class="cart-item__economy-btn">
+                        <button class="btn btn-economy">Додати </button>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="cart-item">
+                    <div class="cart-item__wrapper">
+                      <div class="cart-item__photo">
+                        <a href="/nasinnya-ovochiv/buriak/buriak-chervoniy-pablo-f1.html">
+                          <picture>
+                            <source srcset="./assets/images/sliders/novinki/ogirok2.643764c7dc0e088c48aa.webp" type="image/webp">
+                            <source srcset="./assets/images/sliders/novinki/ogirok2.2c76d1c754a5a650be93.avif" type="image/avif">
+                            <img src="./assets/images/sliders/novinki/ogirok2.b8c119430ce20293a3f5.png" alt="огірок">
+                          </picture>
+                        </a>
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">Огірок Еколь F1</div>
+                        <div class="cart-item__price">796,82 грн/уп</div>
+                        <div class="cart-item__counter">
+                          
+                          <button class="btn btn-cart-minus">-</button>
+                          <div class="counter-number">1</div>
+                          <button class="btn btn-cart-plus">+</button>
+                          
+                        </div>
+                      </div>
+                      <div class="cart-item__drop">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.2903 13.0456H10.3071C10.4924 13.0456 10.644 12.8854 10.6608 12.6896L11.065 5.81978C11.0818 5.60621 10.9303 5.42823 10.7282 5.42823C10.5429 5.41043 10.3576 5.57061 10.3576 5.78418L9.95343 12.6362C9.93658 12.8498 10.0882 13.0278 10.2903 13.0456Z" fill="#102714"/>
+                          <path d="M8.00017 13.0456C8.20227 13.0456 8.35385 12.8854 8.35385 12.6719V5.78421C8.35385 5.57064 8.20227 5.41046 8.00017 5.41046C7.79806 5.41046 7.64648 5.57064 7.64648 5.78421V12.6541C7.64648 12.8676 7.79806 13.0456 8.00017 13.0456Z" fill="#102714"/>
+                          <path d="M5.69271 13.0456H5.70955C5.91165 13.0278 6.04639 12.8499 6.04639 12.6541L5.62534 5.78423C5.6085 5.57066 5.42323 5.42828 5.25481 5.42828C5.05271 5.44608 4.91797 5.62406 4.91797 5.81983L5.33902 12.6897C5.35586 12.8855 5.50744 13.0456 5.69271 13.0456Z" fill="#102714"/>
+                          <path d="M15.6463 2.43826H10.5095V2.02892C10.5095 0.925473 9.65053 0 8.58947 0H7.41053C6.34947 0 5.49053 0.907675 5.49053 2.02892V2.43826H0.353684C0.151579 2.43826 0 2.59844 0 2.81201C0 3.02558 0.151579 3.18576 0.353684 3.18576H1.6L2.47579 14.2024C2.56 15.2169 3.36842 16 4.32842 16H11.6716C12.6316 16 13.44 15.2169 13.5242 14.2024L14.4 3.18576H15.6463C15.8484 3.18576 16 3.02558 16 2.81201C16 2.59844 15.8484 2.43826 15.6463 2.43826ZM6.1979 2.02892C6.1979 1.31702 6.73684 0.747497 7.41053 0.747497H8.58947C9.26316 0.747497 9.80211 1.31702 9.80211 2.02892V2.43826H6.1979V2.02892ZM12.8168 14.1491C12.7663 14.772 12.2611 15.2703 11.6716 15.2703H4.32842C3.73895 15.2703 3.23368 14.772 3.18316 14.1491L2.32421 3.18576H13.6926L12.8168 14.1491Z" fill="#102714"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cart-item__economy-wrapper">
+                      <div class="cart-item__economy-text">Від 10 упаковок економія 25,70 ₴</div>
+                      <div class="cart-item__economy-btn">
+                        <button class="btn btn-economy">Додати </button>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="cart-item">
+                    <div class="cart-item__wrapper">
+                      <div class="cart-item__photo">
+                        <a href="/nasinnya-ovochiv/buriak/buriak-chervoniy-pablo-f1.html">
+                          <picture>
+                            <source srcset="./assets/images/sliders/novinki/ogirok2.643764c7dc0e088c48aa.webp" type="image/webp">
+                            <source srcset="./assets/images/sliders/novinki/ogirok2.2c76d1c754a5a650be93.avif" type="image/avif">
+                            <img src="./assets/images/sliders/novinki/ogirok2.b8c119430ce20293a3f5.png" alt="огірок">
+                          </picture>
+                        </a>
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">Огірок Еколь F1</div>
+                        <div class="cart-item__price">796,82 грн/уп</div>
+                        <div class="cart-item__counter">
+                          
+                          <button class="btn btn-cart-minus">-</button>
+                          <div class="counter-number">1</div>
+                          <button class="btn btn-cart-plus">+</button>
+                          
+                        </div>
+                      </div>
+                      <div class="cart-item__drop">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.2903 13.0456H10.3071C10.4924 13.0456 10.644 12.8854 10.6608 12.6896L11.065 5.81978C11.0818 5.60621 10.9303 5.42823 10.7282 5.42823C10.5429 5.41043 10.3576 5.57061 10.3576 5.78418L9.95343 12.6362C9.93658 12.8498 10.0882 13.0278 10.2903 13.0456Z" fill="#102714"/>
+                          <path d="M8.00017 13.0456C8.20227 13.0456 8.35385 12.8854 8.35385 12.6719V5.78421C8.35385 5.57064 8.20227 5.41046 8.00017 5.41046C7.79806 5.41046 7.64648 5.57064 7.64648 5.78421V12.6541C7.64648 12.8676 7.79806 13.0456 8.00017 13.0456Z" fill="#102714"/>
+                          <path d="M5.69271 13.0456H5.70955C5.91165 13.0278 6.04639 12.8499 6.04639 12.6541L5.62534 5.78423C5.6085 5.57066 5.42323 5.42828 5.25481 5.42828C5.05271 5.44608 4.91797 5.62406 4.91797 5.81983L5.33902 12.6897C5.35586 12.8855 5.50744 13.0456 5.69271 13.0456Z" fill="#102714"/>
+                          <path d="M15.6463 2.43826H10.5095V2.02892C10.5095 0.925473 9.65053 0 8.58947 0H7.41053C6.34947 0 5.49053 0.907675 5.49053 2.02892V2.43826H0.353684C0.151579 2.43826 0 2.59844 0 2.81201C0 3.02558 0.151579 3.18576 0.353684 3.18576H1.6L2.47579 14.2024C2.56 15.2169 3.36842 16 4.32842 16H11.6716C12.6316 16 13.44 15.2169 13.5242 14.2024L14.4 3.18576H15.6463C15.8484 3.18576 16 3.02558 16 2.81201C16 2.59844 15.8484 2.43826 15.6463 2.43826ZM6.1979 2.02892C6.1979 1.31702 6.73684 0.747497 7.41053 0.747497H8.58947C9.26316 0.747497 9.80211 1.31702 9.80211 2.02892V2.43826H6.1979V2.02892ZM12.8168 14.1491C12.7663 14.772 12.2611 15.2703 11.6716 15.2703H4.32842C3.73895 15.2703 3.23368 14.772 3.18316 14.1491L2.32421 3.18576H13.6926L12.8168 14.1491Z" fill="#102714"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cart-item__economy-wrapper">
+                      <div class="cart-item__economy-text">Від 10 упаковок економія 25,70 ₴</div>
+                      <div class="cart-item__economy-btn">
+                        <button class="btn btn-economy">Додати </button>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="cart-item">
+                    <div class="cart-item__wrapper">
+                      <div class="cart-item__photo">
+                        <a href="/nasinnya-ovochiv/buriak/buriak-chervoniy-pablo-f1.html">
+                          <picture>
+                            <source srcset="./assets/images/sliders/novinki/ogirok2.643764c7dc0e088c48aa.webp" type="image/webp">
+                            <source srcset="./assets/images/sliders/novinki/ogirok2.2c76d1c754a5a650be93.avif" type="image/avif">
+                            <img src="./assets/images/sliders/novinki/ogirok2.b8c119430ce20293a3f5.png" alt="огірок">
+                          </picture>
+                        </a>
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">Огірок Еколь F1</div>
+                        <div class="cart-item__price">796,82 грн/уп</div>
+                        <div class="cart-item__counter">
+                          
+                          <button class="btn btn-cart-minus">-</button>
+                          <div class="counter-number">1</div>
+                          <button class="btn btn-cart-plus">+</button>
+                          
+                        </div>
+                      </div>
+                      <div class="cart-item__drop">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.2903 13.0456H10.3071C10.4924 13.0456 10.644 12.8854 10.6608 12.6896L11.065 5.81978C11.0818 5.60621 10.9303 5.42823 10.7282 5.42823C10.5429 5.41043 10.3576 5.57061 10.3576 5.78418L9.95343 12.6362C9.93658 12.8498 10.0882 13.0278 10.2903 13.0456Z" fill="#102714"/>
+                          <path d="M8.00017 13.0456C8.20227 13.0456 8.35385 12.8854 8.35385 12.6719V5.78421C8.35385 5.57064 8.20227 5.41046 8.00017 5.41046C7.79806 5.41046 7.64648 5.57064 7.64648 5.78421V12.6541C7.64648 12.8676 7.79806 13.0456 8.00017 13.0456Z" fill="#102714"/>
+                          <path d="M5.69271 13.0456H5.70955C5.91165 13.0278 6.04639 12.8499 6.04639 12.6541L5.62534 5.78423C5.6085 5.57066 5.42323 5.42828 5.25481 5.42828C5.05271 5.44608 4.91797 5.62406 4.91797 5.81983L5.33902 12.6897C5.35586 12.8855 5.50744 13.0456 5.69271 13.0456Z" fill="#102714"/>
+                          <path d="M15.6463 2.43826H10.5095V2.02892C10.5095 0.925473 9.65053 0 8.58947 0H7.41053C6.34947 0 5.49053 0.907675 5.49053 2.02892V2.43826H0.353684C0.151579 2.43826 0 2.59844 0 2.81201C0 3.02558 0.151579 3.18576 0.353684 3.18576H1.6L2.47579 14.2024C2.56 15.2169 3.36842 16 4.32842 16H11.6716C12.6316 16 13.44 15.2169 13.5242 14.2024L14.4 3.18576H15.6463C15.8484 3.18576 16 3.02558 16 2.81201C16 2.59844 15.8484 2.43826 15.6463 2.43826ZM6.1979 2.02892C6.1979 1.31702 6.73684 0.747497 7.41053 0.747497H8.58947C9.26316 0.747497 9.80211 1.31702 9.80211 2.02892V2.43826H6.1979V2.02892ZM12.8168 14.1491C12.7663 14.772 12.2611 15.2703 11.6716 15.2703H4.32842C3.73895 15.2703 3.23368 14.772 3.18316 14.1491L2.32421 3.18576H13.6926L12.8168 14.1491Z" fill="#102714"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cart-item__economy-wrapper">
+                      <div class="cart-item__economy-text">Від 10 упаковок економія 25,70 ₴</div>
+                      <div class="cart-item__economy-btn">
+                        <button class="btn btn-economy">Додати </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+               
+  
+                <div class="cart__total-wrapper">
+                  <div class="cart__total-text">Всього</div>
+                  <div class="cart__total-price">2 239, 03 грн</div>
+                </div>
+  
+                <button class="btn btn-order">оформити замовлення</button>
+              </div>
+          </div>
+      </header>
+
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="breadcrumbs__wrapper">
+            <div class="breadcrumbs__item main"><a href="/">Головна</a></div>
+            <div class="breadcrumbs__item arrow">></div>
+            <div class="breadcrumbs__item main"><a href="/">Оформлення замовлення</a></div>
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <section class="order">
+            <div class="container">
+              <div class="order__wrapper">
+                <div class="form">
+
+                  <form action="POST">
+
+                    <div class="form__contact">
+                      <div class="order__subheader"><h2>Контактні дані</h2></div>
+                      <div class="input"><input type="text" required placeholder="Ім'я" name="name" autocomplete="additional-name"></div>
+                      <div class="input"><input type="number" required placeholder="Телефон" name="phone" autocomplete="additional-name"></div>
+                    </div>
+
+                    <div class="form__delivery">
+                      <div class="order__subheader"><h2>Доставка</h2></div>
+                      <div class="input">
+                        <label>
+                          <input type="radio" name="deliveryOption" checked>
+                          Нова Пошта
+                        </label>
+                      </div>
+                      <div class="input">
+                        <label>
+                          <input type="radio" name="deliveryOption">
+                          Транспортна компанія
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="form__payment">
+                      <div class="order__subheader"><h2>Оплата</h2></div>
+                      <div class="input">
+                        <label>
+                          <input type="radio" name="paymentOption" checked>
+                          Оплата за реквізитами
+                        </label>
+                      </div>
+                      <div class="input"> 
+                        <label>
+                          <input type="radio" name="paymentOption">
+                          Післяоплата
+                        </label>
+                      </div>
+                    </div>
+
+                    <button class="btn btn-submit-order">Оформити замовлення</button>
+                    
+                  </form>
+                </div>
+                <div class="cart-shown">
+    
+                  <div class="cart__inner">
+      
+                    <div class="cart__title">Кошик</div>
+      
+                    <div class="items-in-cart">
+      
+                      <div class="cart-item">
+                        <div class="cart-item__wrapper">
+                          <div class="cart-item__photo">
+                            <a href="/nasinnya-ovochiv/buriak/buriak-chervoniy-pablo-f1.html">
+                              <picture>
+                                <source srcset="./assets/images/sliders/novinki/buriak.32266ac10144703778ca.webp" type="image/webp">
+                                <source srcset="./assets/images/sliders/novinki/buriak.3ba549912266090c1ac0.avif" type="image/avif">
+                                <img src="./assets/images/sliders/novinki/buriak.c268e2d971c649576908.png" alt="морква">
+                              </picture>
+                            </a>
+                          </div>
+                          <div class="cart-item__info">
+                            <div class="cart-item__title">Буряк червноий Пабло F1</div>
+                            <div class="cart-item__price">796,82 грн/уп</div>
+                            <div class="cart-item__counter">
+                              
+                              <button class="btn btn-cart-minus">-</button>
+                              <div class="counter-number">1</div>
+                              <button class="btn btn-cart-plus">+</button>
+                              
+                            </div>
+                          </div>
+                          <div class="cart-item__drop">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M10.2903 13.0456H10.3071C10.4924 13.0456 10.644 12.8854 10.6608 12.6896L11.065 5.81978C11.0818 5.60621 10.9303 5.42823 10.7282 5.42823C10.5429 5.41043 10.3576 5.57061 10.3576 5.78418L9.95343 12.6362C9.93658 12.8498 10.0882 13.0278 10.2903 13.0456Z" fill="#102714"/>
+                              <path d="M8.00017 13.0456C8.20227 13.0456 8.35385 12.8854 8.35385 12.6719V5.78421C8.35385 5.57064 8.20227 5.41046 8.00017 5.41046C7.79806 5.41046 7.64648 5.57064 7.64648 5.78421V12.6541C7.64648 12.8676 7.79806 13.0456 8.00017 13.0456Z" fill="#102714"/>
+                              <path d="M5.69271 13.0456H5.70955C5.91165 13.0278 6.04639 12.8499 6.04639 12.6541L5.62534 5.78423C5.6085 5.57066 5.42323 5.42828 5.25481 5.42828C5.05271 5.44608 4.91797 5.62406 4.91797 5.81983L5.33902 12.6897C5.35586 12.8855 5.50744 13.0456 5.69271 13.0456Z" fill="#102714"/>
+                              <path d="M15.6463 2.43826H10.5095V2.02892C10.5095 0.925473 9.65053 0 8.58947 0H7.41053C6.34947 0 5.49053 0.907675 5.49053 2.02892V2.43826H0.353684C0.151579 2.43826 0 2.59844 0 2.81201C0 3.02558 0.151579 3.18576 0.353684 3.18576H1.6L2.47579 14.2024C2.56 15.2169 3.36842 16 4.32842 16H11.6716C12.6316 16 13.44 15.2169 13.5242 14.2024L14.4 3.18576H15.6463C15.8484 3.18576 16 3.02558 16 2.81201C16 2.59844 15.8484 2.43826 15.6463 2.43826ZM6.1979 2.02892C6.1979 1.31702 6.73684 0.747497 7.41053 0.747497H8.58947C9.26316 0.747497 9.80211 1.31702 9.80211 2.02892V2.43826H6.1979V2.02892ZM12.8168 14.1491C12.7663 14.772 12.2611 15.2703 11.6716 15.2703H4.32842C3.73895 15.2703 3.23368 14.772 3.18316 14.1491L2.32421 3.18576H13.6926L12.8168 14.1491Z" fill="#102714"/>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="cart-item__economy-wrapper">
+                          <div class="cart-item__economy-text">Від 10 упаковок економія 25,70 ₴</div>
+                          <div class="cart-item__economy-btn">
+                            <button class="btn btn-economy">Додати </button>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="cart-item">
+                        <div class="cart-item__wrapper">
+                          <div class="cart-item__photo">
+                            <a href="/nasinnya-ovochiv/buriak/buriak-chervoniy-pablo-f1.html">
+                              <picture>
+                                <source srcset="./assets/images/sliders/novinki/ogirok2.643764c7dc0e088c48aa.webp" type="image/webp">
+                                <source srcset="./assets/images/sliders/novinki/ogirok2.2c76d1c754a5a650be93.avif" type="image/avif">
+                                <img src="./assets/images/sliders/novinki/ogirok2.b8c119430ce20293a3f5.png" alt="огірок">
+                              </picture>
+                            </a>
+                          </div>
+                          <div class="cart-item__info">
+                            <div class="cart-item__title">Огірок Еколь F1</div>
+                            <div class="cart-item__price">796,82 грн/уп</div>
+                            <div class="cart-item__counter">
+                              
+                              <button class="btn btn-cart-minus">-</button>
+                              <div class="counter-number">1</div>
+                              <button class="btn btn-cart-plus">+</button>
+                              
+                            </div>
+                          </div>
+                          <div class="cart-item__drop">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M10.2903 13.0456H10.3071C10.4924 13.0456 10.644 12.8854 10.6608 12.6896L11.065 5.81978C11.0818 5.60621 10.9303 5.42823 10.7282 5.42823C10.5429 5.41043 10.3576 5.57061 10.3576 5.78418L9.95343 12.6362C9.93658 12.8498 10.0882 13.0278 10.2903 13.0456Z" fill="#102714"/>
+                              <path d="M8.00017 13.0456C8.20227 13.0456 8.35385 12.8854 8.35385 12.6719V5.78421C8.35385 5.57064 8.20227 5.41046 8.00017 5.41046C7.79806 5.41046 7.64648 5.57064 7.64648 5.78421V12.6541C7.64648 12.8676 7.79806 13.0456 8.00017 13.0456Z" fill="#102714"/>
+                              <path d="M5.69271 13.0456H5.70955C5.91165 13.0278 6.04639 12.8499 6.04639 12.6541L5.62534 5.78423C5.6085 5.57066 5.42323 5.42828 5.25481 5.42828C5.05271 5.44608 4.91797 5.62406 4.91797 5.81983L5.33902 12.6897C5.35586 12.8855 5.50744 13.0456 5.69271 13.0456Z" fill="#102714"/>
+                              <path d="M15.6463 2.43826H10.5095V2.02892C10.5095 0.925473 9.65053 0 8.58947 0H7.41053C6.34947 0 5.49053 0.907675 5.49053 2.02892V2.43826H0.353684C0.151579 2.43826 0 2.59844 0 2.81201C0 3.02558 0.151579 3.18576 0.353684 3.18576H1.6L2.47579 14.2024C2.56 15.2169 3.36842 16 4.32842 16H11.6716C12.6316 16 13.44 15.2169 13.5242 14.2024L14.4 3.18576H15.6463C15.8484 3.18576 16 3.02558 16 2.81201C16 2.59844 15.8484 2.43826 15.6463 2.43826ZM6.1979 2.02892C6.1979 1.31702 6.73684 0.747497 7.41053 0.747497H8.58947C9.26316 0.747497 9.80211 1.31702 9.80211 2.02892V2.43826H6.1979V2.02892ZM12.8168 14.1491C12.7663 14.772 12.2611 15.2703 11.6716 15.2703H4.32842C3.73895 15.2703 3.23368 14.772 3.18316 14.1491L2.32421 3.18576H13.6926L12.8168 14.1491Z" fill="#102714"/>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="cart-item__economy-wrapper">
+                          <div class="cart-item__economy-text">Від 10 упаковок економія 25,70 ₴</div>
+                          <div class="cart-item__economy-btn">
+                            <button class="btn btn-economy">Додати </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="cart-item">
+                        <div class="cart-item__wrapper">
+                          <div class="cart-item__photo">
+                            <a href="/nasinnya-ovochiv/buriak/buriak-chervoniy-pablo-f1.html">
+                              <picture>
+                                <source srcset="./assets/images/sliders/novinki/ogirok2.643764c7dc0e088c48aa.webp" type="image/webp">
+                                <source srcset="./assets/images/sliders/novinki/ogirok2.2c76d1c754a5a650be93.avif" type="image/avif">
+                                <img src="./assets/images/sliders/novinki/ogirok2.b8c119430ce20293a3f5.png" alt="огірок">
+                              </picture>
+                            </a>
+                          </div>
+                          <div class="cart-item__info">
+                            <div class="cart-item__title">Огірок Еколь F1</div>
+                            <div class="cart-item__price">796,82 грн/уп</div>
+                            <div class="cart-item__counter">
+                              
+                              <button class="btn btn-cart-minus">-</button>
+                              <div class="counter-number">1</div>
+                              <button class="btn btn-cart-plus">+</button>
+                              
+                            </div>
+                          </div>
+                          <div class="cart-item__drop">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M10.2903 13.0456H10.3071C10.4924 13.0456 10.644 12.8854 10.6608 12.6896L11.065 5.81978C11.0818 5.60621 10.9303 5.42823 10.7282 5.42823C10.5429 5.41043 10.3576 5.57061 10.3576 5.78418L9.95343 12.6362C9.93658 12.8498 10.0882 13.0278 10.2903 13.0456Z" fill="#102714"/>
+                              <path d="M8.00017 13.0456C8.20227 13.0456 8.35385 12.8854 8.35385 12.6719V5.78421C8.35385 5.57064 8.20227 5.41046 8.00017 5.41046C7.79806 5.41046 7.64648 5.57064 7.64648 5.78421V12.6541C7.64648 12.8676 7.79806 13.0456 8.00017 13.0456Z" fill="#102714"/>
+                              <path d="M5.69271 13.0456H5.70955C5.91165 13.0278 6.04639 12.8499 6.04639 12.6541L5.62534 5.78423C5.6085 5.57066 5.42323 5.42828 5.25481 5.42828C5.05271 5.44608 4.91797 5.62406 4.91797 5.81983L5.33902 12.6897C5.35586 12.8855 5.50744 13.0456 5.69271 13.0456Z" fill="#102714"/>
+                              <path d="M15.6463 2.43826H10.5095V2.02892C10.5095 0.925473 9.65053 0 8.58947 0H7.41053C6.34947 0 5.49053 0.907675 5.49053 2.02892V2.43826H0.353684C0.151579 2.43826 0 2.59844 0 2.81201C0 3.02558 0.151579 3.18576 0.353684 3.18576H1.6L2.47579 14.2024C2.56 15.2169 3.36842 16 4.32842 16H11.6716C12.6316 16 13.44 15.2169 13.5242 14.2024L14.4 3.18576H15.6463C15.8484 3.18576 16 3.02558 16 2.81201C16 2.59844 15.8484 2.43826 15.6463 2.43826ZM6.1979 2.02892C6.1979 1.31702 6.73684 0.747497 7.41053 0.747497H8.58947C9.26316 0.747497 9.80211 1.31702 9.80211 2.02892V2.43826H6.1979V2.02892ZM12.8168 14.1491C12.7663 14.772 12.2611 15.2703 11.6716 15.2703H4.32842C3.73895 15.2703 3.23368 14.772 3.18316 14.1491L2.32421 3.18576H13.6926L12.8168 14.1491Z" fill="#102714"/>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="cart-item__economy-wrapper">
+                          <div class="cart-item__economy-text">Від 10 упаковок економія 25,70 ₴</div>
+                          <div class="cart-item__economy-btn">
+                            <button class="btn btn-economy">Додати </button>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="cart__total-wrapper">
+                      <div class="cart__total-text">Всього</div>
+                      <div class="cart__total-price">2 239, 03 грн</div>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            
+            <div class="logotype">
+              <a href="/">
+                <picture>
+                  <source srcset="./assets/images/logo/logo.0e5ea2ba4da19d27122e.webp" type="image/webp" />
+                  <source srcset="./assets/images/logo/logo.f1d07cb4bdf5680f353e.avif" type="image/avif" />
+                  <img src="./assets/images/logo/logo.73ea610988b84d6d9d23.png" alt="логотип proground" />
+                </picture>
+              </a>
+            </div>
+  
+            <div class="menu">
+              <nav>
+                <div class="menu__main">
+                  <ul>
+                    <li><a href="/nasinnya-ovochiv.html">Насіння овочів</a></li>
+                    <li><a href="/polovi-kultury.html">Польові культури</a></li>
+                    <li><a href="/kormovi-kultury.html">Кормові культури</a></li>
+                    <li><a href="/zasoby-zahystu.html">Засоби захисту</a></li>
+                    <li><a href="/dobryva.html">Добрива і стимулятори росту</a></li>
+                  </ul>
+                </div>
+                <div class="menu__add">
+                  <ul>
+                    <li><a href="/pro-nas.html">Про нас</a></li>
+                    <li><a href="/blog.html">Блог</a></li>
+                    <li><a href="/vidguky.html">Відгуки</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+  
+            <div class="contacts">
+                <div class="contacts__header"><h4>Контакти</h4></div>
+  
+                <div class="contacts__item contacts__item-phone">
+                  <div class="contacts__icon">
+                    <img src="./assets/icons/phone.8af26fa0ff1e08e7a892.svg" alt="іконка телефону">
+                  </div>
+                  <div class="contacts__department contacts__item-phone">
+                    <a href="tel:+380955130057">+380 (95) 513-00-57</a>
+                    <div class="contacts__department-name">менеджер Валентина</div>
+                  </div>
+                </div>
+  
+                <div class="contacts__item contacts__item-phone">
+                  <div class="contacts__icon">
+                    <img src="./assets/icons/phone.8af26fa0ff1e08e7a892.svg" alt="іконка телефону">
+                  </div>
+                  <div class="contacts__department">
+                    <a href="tel:+380955130057">+380 (68) 486-60-44</a>
+                    <div class="contacts__department-name">Насіння кормових трав</div>
+                  </div>
+                </div>
+  
+                <div class="contacts__item contacts__item-phone">
+                  <div class="contacts__icon">
+                    <img src="./assets/icons/phone.8af26fa0ff1e08e7a892.svg" alt="іконка телефону">
+                  </div>
+                  <div class="contacts__department">
+                    <a href="tel:+380955130057">+380 (50) 424-34-06</a>
+                    <div class="contacts__department-name">Засоби захисту рослин</div>
+                  </div>
+                </div>
+  
+                <div class="contacts__item contacts__item-phone">
+                  <div class="contacts__icon">
+                    <img src="./assets/icons/phone.8af26fa0ff1e08e7a892.svg" alt="іконка телефону">
+                  </div>
+                  <div class="contacts__department">
+                    <a href="tel:+380955130057">+380 (50) 424-34-06</a>
+                    <div class="contacts__department-name">Польові культури</div>
+                  </div>
+                </div>
+  
+                <div class="contacts__item contacts__item-mail">
+                  <div class="contacts__icon">
+                    <img src="./assets/icons/mail.2a93b6d73b1c6b86eaa8.svg" alt="іконка пошти">
+                  </div>
+                  <div class="contacts__department">
+                    <a href="mailto:graund.a@ukr.net">graund.a@ukr.net</a>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="info">
+              
+              <div class="info__header"><h4>Графік роботи</h4></div>
+              <div class="info__days">
+                <div class="info__icon-time">
+                  <img src="./assets/icons/time.3cf3c80569d4c25f806a.svg" alt="іконка годинника">
+                </div>
+                <div class="info__times">
+                  <div class="wh">Пн-Пт: 09:00 - 18:00 Сб-Нд: Вихідні</div>
+                </div>
+              </div>
+              
+              <div class="info__header"><h4>Адреса</h4></div>
+              <div class="info__location">
+                <div class="info__city">
+                  <div class="info__icon-location">
+                    <img src="./assets/icons/location.9b72a080c6fe8d02a77f.svg" alt="іконка локації">
+                  </div>
+                  <div class="info__cityname">Харків, Україна</div>
+                </div>
+                <div class="info__map">
+                  <a href="/">Переглянути на мапі</a>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+       
+      </footer>
+  </body>
+</html>
